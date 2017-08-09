@@ -4,10 +4,10 @@
     </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content>
     <ion-list>
         <button ion-item *ngFor="let item of items" (click)="itemSelected(item)">
-    {{ item.text }}
-  </button>
+      {{ item.text }}
+    </button>
     </ion-list>
 </ion-content>
